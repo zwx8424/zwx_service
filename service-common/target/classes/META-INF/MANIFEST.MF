@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: service-common
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: weixin.zhu
+Implementation-Vendor-Id: com.zwx
+Build-Jdk: 1.8.0_112
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/service-parent/service-common
+Created-By: Maven Integration for Eclipse
+
