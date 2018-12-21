@@ -8,10 +8,14 @@
 	</parent>
 	<artifactId>service-demo-thrift</artifactId>
 	<dependencies>
-
 		<dependency>
 			<groupId>com.zwx</groupId>
 			<artifactId>service-framework</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zwx</groupId>
+			<artifactId>service-thrift-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>

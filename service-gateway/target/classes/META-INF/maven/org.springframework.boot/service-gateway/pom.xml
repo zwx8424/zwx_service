@@ -16,6 +16,12 @@
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>com.zwx</groupId>
+			<artifactId>service-thrift-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>

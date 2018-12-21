@@ -45,5 +45,6 @@
 		<module>service-common</module>
 		<module>service-demo</module>
 		<module>service-demo-thrift</module>
+		<module>service-thrift-api</module>
 	</modules>
 </project>
