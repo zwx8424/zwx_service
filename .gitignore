@@ -1,8 +1,6 @@
 *.class
 *.classpath
 *.log
-*.MF
-*.project
 /target/
 # Package Files #
 *.jar
