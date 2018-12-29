@@ -2,8 +2,14 @@ rd /q /s service-common\target
 rd /q /s service-demo\target
 rd /q /s service-demo-thrift\target
 rd /q /s service-framework\target
+rd /q /s service-eureka-server\target
+rd /q /s service-gateway\target
+rd /q /s service-thrift-api\target
 rd /q /s service-common\logs
 rd /q /s service-demo\logs
 rd /q /s service-demo-thrift\logs
 rd /q /s service-framework\logs
+rd /q /s service-eureka-server\logs
+rd /q /s service-gateway\logs
+rd /q /s service-thrift-api\logs
 rd /q /s logs
