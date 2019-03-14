@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-common" />
+        <module name="service-demo" />
+        <module name="service-demo-thrift" />
+        <module name="service-eureka-server" />
+        <module name="service-framework" />
+        <module name="service-gateway" />
+        <module name="service-thrift-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="service-common" options="-parameters" />
+      <module name="service-demo" options="-parameters" />
+      <module name="service-demo-thrift" options="-parameters" />
+      <module name="service-eureka-server" options="-parameters" />
+      <module name="service-framework" options="-parameters" />
+      <module name="service-gateway" options="-parameters" />
+      <module name="service-thrift-api" options="-parameters" />
+    </option>
+  </component>
+</project>
